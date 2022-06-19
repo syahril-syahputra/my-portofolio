@@ -1,21 +1,13 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <div class='h-screen flex flex-col mx-5 space-y-10 justify-center items-center'>
+        <img src="https://avatars.githubusercontent.com/u/99789285?v=4" class="border border-gray-500 rounded-full shadow-2xl" />
+        <div class="flex flex-col text-center">
+            <label class="font-bold text-2xl"> Hi.. i'm Syahril </label>
+            <label class="font-bold text-4xl"> I'm a Full Stack Developer </label>
+        </div>
+        <div class="flex flex-col text-center font-bold text-red-400">
+            <label class="font-bold text-lg">Sorry This Site Is Under Maintenance</label>
+            <label class="text-base">Please Came Back Later!</label>
+        </div>
+    </div>
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
