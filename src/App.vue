@@ -22,7 +22,7 @@
                 <label class="font-bold text-lg"
                     >Sorry This Site Is Under Maintenance</label
                 >
-                <label class="text-base">Please Came Back Later!</label>
+                <label class="text-base">Please Come Back Later!</label>
             </div>
         </div>
     </div>
